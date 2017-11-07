@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{B8128C85-457E-4F1A-81E7-9BD7D9FD793D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvire", "zviera\Zvire.csproj", "{9AC1B3FA-9F4F-4B50-8AED-C873D804C735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B8128C85-457E-4F1A-81E7-9BD7D9FD793D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8128C85-457E-4F1A-81E7-9BD7D9FD793D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8128C85-457E-4F1A-81E7-9BD7D9FD793D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC1B3FA-9F4F-4B50-8AED-C873D804C735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC1B3FA-9F4F-4B50-8AED-C873D804C735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC1B3FA-9F4F-4B50-8AED-C873D804C735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC1B3FA-9F4F-4B50-8AED-C873D804C735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
