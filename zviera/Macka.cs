@@ -10,9 +10,9 @@ namespace zviera
     {
         public Macka(string meno, string druh, string farba, string specialnyZnak, int pocetNoh, int vek, bool srst) : base(meno, druh, farba, specialnyZnak, pocetNoh, vek, srst)
         {
-            void VydajZvuk()
+             public void VydajZvuk()
             {
-                VydajZvuk new = VydajZvuk()
+                VydajZvuk  new = VydajZvuk()
                     {
                     Console.WriteLine("Mnau!");
                 }

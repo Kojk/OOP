@@ -11,6 +11,9 @@ namespace zviera
         public Pes (string meno, string druh, string farba, string specialnyZnak, int pocetNoh, int vek, bool srst) :base(meno,druh,farba,specialnyZnak,pocetNoh,vek,srst)
         {
             public void VydajZvuk()
+            {
+                Console.WriteLine("Haf!");
+            }
         }
     }
 }
