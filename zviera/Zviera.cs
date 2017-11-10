@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace zviera
 {
-    class Zviera
+    abstract class Zviera
     {
         protected string meno;
+        protected bool nakrmen;
         private string druh, farba, specialnyZnak;
         private int pocetNoh, vek;
         private bool srst;
@@ -22,9 +23,10 @@ namespace zviera
             this.vek = vek;
             this.srst = srst;
         }
-        public void VydajZvuk()
+        public virtual void VydajZvuk()
         {
             Console.WriteLine("Toto je obecny zvuk zvierata"); 
         }
+        public abstract void NakrmZviera();
     }
 }
